@@ -6,10 +6,11 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { Docs } from 'src/entities/file.entity';
 import { Historic } from 'src/entities/historic.entity';
 //import { OpenAIService } from './openai.service';
+import { OpenaiService } from './openai/openai.service';
 
 @Module({
   imports:[TypeOrmModule.forFeature([Docs]), TypeOrmModule.forFeature([Historic])],
   controllers: [FileController],
-  providers: [FileService, Gpt2Service]
+  providers: [FileService, Gpt2Service, OpenaiService]
 })
 export class FileModule {}
