@@ -1,0 +1,92 @@
+{
+  "question": [
+    {
+      "questionText": "Quel est l'un des aspects les plus marquants de la révolution numérique mentionné dans le texte ?",
+      "options": [
+        {
+          "text": "L'émergence de l'économie numérique",
+          "correct": true
+        },
+        {
+          "text": "La disparition des échanges commerciaux",
+          "correct": false
+        },
+        {
+          "text": "La réduction de la mondialisation",
+          "correct": false
+        },
+        {
+          "text": "L'augmentation des barrières d'entrée sur le marché",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte met en avant l'émergence de l'économie numérique comme un aspect clé de la révolution numérique."
+    },
+    {
+      "questionText": "Comment internet a-t-il impacté les échanges commerciaux selon le texte ?",
+      "options": [
+        {
+          "text": "Il les a limités aux échanges locaux",
+          "correct": false
+        },
+        {
+          "text": "Il les a rendus plus complexes et coûteux",
+          "correct": false
+        },
+        {
+          "text": "Il les a mondialisés",
+          "correct": true
+        },
+        {
+          "text": "Il n'a eu aucun impact significatif",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte explique clairement qu'internet a permis la mondialisation des échanges commerciaux, dépassant les contraintes géographiques."
+    },
+    {
+      "questionText": "Quelles entreprises sont citées comme exemples de domination de l'économie mondiale ?",
+      "options": [
+        {
+          "text": "Amazon, Alibaba et eBay uniquement",
+          "correct": false
+        },
+        {
+          "text": "Google, Facebook et Apple uniquement",
+          "correct": false
+        },
+        {
+          "text": "Amazon, Alibaba, eBay, Google, Facebook et Apple",
+          "correct": true
+        },
+        {
+          "text": "Aucune entreprise n'est mentionnée",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte cite à la fois des plateformes de commerce électronique (Amazon, Alibaba, eBay) et des entreprises numériques dominantes (Google, Facebook, Apple)."
+    },
+    {
+      "questionText": "Quelle conséquence négative de la mondialisation des échanges est mentionnée ?",
+      "options": [
+        {
+          "text": "L'augmentation des prix des produits",
+          "correct": false
+        },
+        {
+          "text": "L'homogénéisation des produits et services",
+          "correct": true
+        },
+        {
+          "text": "La création de nouveaux emplois locaux",
+          "correct": false
+        },
+        {
+          "text": "L'augmentation de la diversité culturelle",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte souligne le risque d'homogénéisation des produits et services, pouvant effacer les identités culturelles locales."
+    }
+  ]
+}
