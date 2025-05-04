@@ -1,0 +1,63 @@
+1. NestJS
+Description : NestJS est un framework Node.js pour construire des applications serveur modulaires et scalables en TypeScript.
+
+Rôle dans le projet : Il sert de backend pour gérer la logique métier, l'authentification, les requêtes API et l'intégration avec les autres services comme Gemini et Google TTS.
+
+2. Modèle IA Gemini
+Description : Gemini est un modèle d'Intelligence Artificielle développé par Google, capable de traiter du texte, des images, du code et d'autres types de données.
+
+Rôle dans le projet : utilisé pour générer automatiquement des résumés de documents (PDF, textes) et pour créer des quiz intelligents à partir du contenu résumé.
+
+3. Angular
+Description : Angular est un framework JavaScript/TypeScript pour créer des applications web dynamiques et interactives.
+
+Rôle dans le projet : Il est utilisé pour le développement du front-end, permettant aux utilisateurs d'interagir avec la plateforme (visualisation des résumés, interaction avec les quiz, soumission de documents, etc.).
+
+4. Google Text-to-Speech (TTS)
+Description : Google TTS est un service permettant de convertir du texte en voix synthétique de haute qualité.
+
+Rôle dans le projet : Il est utilisé pour générer des lectures audio des résumés, facilitant ainsi l'apprentissage auditif et rendant la plateforme plus accessible aux utilisateurs ayant des besoins spécifiques.
+
+5. MySQL
+Pour stocker les utilisateurs, les documents, les résumés et les résultats des quiz.
+
+
+
+
+Vous avez dit :
+est ce qu'il y'a d'autres tech que je peux ajouter
+
+
+ChatGPT a dit :
+Oui, tu peux enrichir ton projet en ajoutant d'autres technologies pour améliorer ses performances, sa sécurité et son accessibilité. Voici quelques suggestions :
+
+🔹 Base de données
+MongoDB / PostgreSQL / MySQL : Pour stocker les utilisateurs, les documents, les résumés et les résultats des quiz.
+
+Firebase Firestore : Si tu veux une solution NoSQL temps réel et facile à gérer.
+
+🔹 Stockage et Gestion de fichiers
+Google Cloud Storage / AWS S3 : Pour stocker les documents PDF et les fichiers audio générés par Google TTS.
+
+MongoDB GridFS : Si tu veux stocker directement les fichiers dans ta base de données MongoDB.
+
+🔹 Authentification et Sécurité
+JWT (JSON Web Token) : Pour sécuriser les API avec l’authentification et la gestion des utilisateurs.
+
+OAuth 2.0 (Google, GitHub, etc.) : Pour permettre aux utilisateurs de se connecter facilement via leurs comptes existants.
+
+🔹 Amélioration de l'IA
+LangChain : Pour améliorer la gestion des requêtes vers Gemini et optimiser les interactions avec l’IA.
+
+Whisper (OpenAI) : Pour ajouter une fonctionnalité de reconnaissance vocale et permettre aux utilisateurs de soumettre des résumés sous forme audio.
+
+🔹 Performance et Scalabilité
+Redis : Pour mettre en cache les résumés générés et accélérer les performances.
+
+RabbitMQ / Kafka : Si tu veux un système de messagerie pour gérer les tâches lourdes comme la génération de résumés en arrière-plan.
+
+🔹 Accessibilité et Expérience Utilisateur
+Web Speech API : Pour permettre aux utilisateurs de dicter leurs textes à résumer au lieu de les taper.
+
+TailwindCSS / Bootstrap : Pour améliorer le design et l’ergonomie du front-end.
+

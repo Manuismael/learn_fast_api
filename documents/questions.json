@@ -1,0 +1,114 @@
+{
+  "question": [
+    {
+      "questionText": "Quel événement marque le début de la révolution du deep learning selon le texte ?",
+      "options": [
+        {
+          "text": "La proposition du perceptron en 1957",
+          "correct": false
+        },
+        {
+          "text": "La redécouverte de la rétropropagation en 1986",
+          "correct": false
+        },
+        {
+          "text": "La victoire d'AlexNet à la compétition ImageNet en 2012",
+          "correct": true
+        },
+        {
+          "text": "La proposition du Transformer en 2017",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique explicitement que la victoire d'AlexNet en 2012 a marqué le début de la révolution du deep learning."
+    },
+    {
+      "questionText": "Quelle est la principale fonction de la rétropropagation dans un réseau neuronal ?",
+      "options": [
+        {
+          "text": "Appliquer une transformation aux entrées des neurones",
+          "correct": false
+        },
+        {
+          "text": "Ajuster les poids du réseau pour minimiser l'erreur",
+          "correct": true
+        },
+        {
+          "text": "Déterminer la sortie attendue du réseau",
+          "correct": false
+        },
+        {
+          "text": "Créer de nouvelles couches de neurones",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte explique que la rétropropagation sert à ajuster les poids du réseau pour réduire l'écart entre la sortie prévue et la sortie attendue."
+    },
+    {
+      "questionText": "Lequel de ces modèles n'est PAS mentionné comme une avancée majeure du deep learning ?",
+      "options": [
+        {
+          "text": "AlexNet",
+          "correct": false
+        },
+        {
+          "text": "ResNet",
+          "correct": false
+        },
+        {
+          "text": "Perceptron",
+          "correct": true
+        },
+        {
+          "text": "Transformers",
+          "correct": false
+        }
+      ],
+      "explanation": "AlexNet, ResNet et Transformers sont cités comme des avancées majeures. Le perceptron est mentionné comme un modèle précurseur, mais pas comme une avancée majeure dans le contexte de ce texte."
+    },
+    {
+      "questionText": "Quelle application concrète des réseaux neuronaux profonds n'est PAS mentionnée dans le texte ?",
+      "options": [
+        {
+          "text": "Détection de fraudes bancaires",
+          "correct": false
+        },
+        {
+          "text": "Véhicules autonomes",
+          "correct": false
+        },
+        {
+          "text": "Prévision météorologique",
+          "correct": true
+        },
+        {
+          "text": "Génération d'images",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte cite la détection de fraudes, les véhicules autonomes et la génération d'images. La prévision météorologique n'est pas mentionnée."
+    },
+    {
+      "questionText": "Quelle est une limite mentionnée des réseaux neuronaux profonds ?",
+      "options": [
+        {
+          "text": "Coût de développement logiciel élevé",
+          "correct": false
+        },
+        {
+          "text": "Besoin massif de données pour l'entraînement",
+          "correct": true
+        },
+        {
+          "text": "Difficulté d'intégration dans les systèmes existants",
+          "correct": false
+        },
+        {
+          "text": "Manque de flexibilité dans les architectures",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte mentionne explicitement le besoin massif de données comme une limitation majeure."
+    }
+  ]
+}
